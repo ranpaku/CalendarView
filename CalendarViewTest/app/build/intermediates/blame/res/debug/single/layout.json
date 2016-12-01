@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_dialog.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\sub.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\maint.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\maint.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\year_month_pair.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\year_month_pair.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub1.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\sub1.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\number_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\touroku.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\touroku.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sub.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\activity_sub.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\button.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hour_minute_pair.xml",
+        "source": "C:\\Users\\134113\\AndroidStudioProjects\\CalendarViewTest\\app\\src\\main\\res\\layout\\hour_minute_pair.xml"
+    }
+]

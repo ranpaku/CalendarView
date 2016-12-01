@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calendar_background">#d0ffffff</color>
+    <color name="calendar_dark">#6456648f</color>
+    <color name="calendar_foreground">#000000</color>
+    <color name="calendar_hilite">#ffffffff</color>
+    <color name="calendar_hint_0">#64ff0000</color>
+    <color name="calendar_hint_1">#6400ff80</color>
+    <color name="calendar_hint_2">#2000ff80</color>
+    <color name="calendar_holiday">#ff0000</color>
+    <color name="calendar_light">#64c6d4ef</color>
+    <color name="calendar_saturday">#ff0000FF</color>
+    <color name="calendar_selected">#64ffcc00</color>
+    <color name="shadowColor">#bb000000</color>
+    <string name="app_name">CalendarTest</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_set">設定</string>
+    <string name="frame_size">500</string>
+    <string name="guidance_calendar_view"> 日付を選択してください</string>
+    <string name="guidance_hour"> 時</string>
+    <string name="guidance_minute"> 分</string>
+    <string name="guidance_month"> 月</string>
+    <string name="guidance_year">年</string>
+    <string name="year_month_dialog_title">年月を設定します</string>
+</resources>

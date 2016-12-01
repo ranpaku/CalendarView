@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.kazzz.view.MotionableScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/ScrollView01"
+ android:soundEffectsEnabled="true"
+ android:layout_height="fill_parent"
+ android:layout_width="fill_parent"
+ android:fillViewport="true">
+ <LinearLayout
+  android:id="@+id/LinearLayout03"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+     android:weightSum="1">
+
+
+  <org.kazzz.view.calendar.CalendarView
+   android:id="@+id/Calendar"
+   android:layout_height="388dp"
+   android:layout_width="fill_parent"
+      android:layout_weight="0.81"
+      android:orientation="vertical">
+  </org.kazzz.view.calendar.CalendarView>
+
+//新規
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="New Button"
+      android:id="@+id/button"
+      android:layout_gravity="center_horizontal"
+      android:layout_weight="0.22" />
+//
+
+ </LinearLayout>
+</org.kazzz.view.MotionableScrollView>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="mm月nn日sun"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:showDividers="middle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="予定を入力してください"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="前(株)"
+                android:id="@+id/radioButton"
+                android:textColor="@android:color/black"
+                android:singleLine="false" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="後(株)"
+                android:id="@+id/radioButton2"
+                android:textColor="@android:color/black" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/syamei"
+                android:layout_gravity="center_horizontal"
+                android:hint="会社名" />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/basyo"
+                android:layout_gravity="center_horizontal"
+                android:hint="場所" />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mokuteki"
+                android:hint="目的" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="時間"
+                    android:id="@+id/text"
+                    android:textColor="@color/calendar_foreground" />
+
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jikan" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="備考"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/bikou" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="fill_parent"
+            android:text="登録"
+            android:id="@+id/t_button"
+            android:layout_weight="3"
+            android:clickable="true"
+            android:contextClickable="false" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="fill_parent"
+            android:text="削除"
+            android:id="@+id/s_button"
+            android:layout_weight="3"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="@android:dimen/thumbnail_width"
+            android:layout_height="fill_parent"
+            android:text="キャンセル"
+            android:id="@+id/c_button"
+            android:layout_weight="3"
+            android:clickable="true" />
+    </LinearLayout>
+
+</LinearLayout>

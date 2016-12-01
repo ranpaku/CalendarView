@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64"
+    api-level="21"
+    density="tvdpi"
+    format="7"
+    timestamp="6782706015270"
+    token="-2635027052908242385" >
+
+    <task
+        name="javac"
+        duration="2440" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1046" />
+    <task
+        name="verifier"
+        duration="78" />
+
+    <artifact
+        location="C:\Users\134113\AndroidStudioProjects\CalendarViewTest\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="6782706015270" >
+        <artifact
+            location="C:\Users\134113\AndroidStudioProjects\CalendarViewTest\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
